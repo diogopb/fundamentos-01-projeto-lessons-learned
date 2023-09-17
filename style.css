@@ -1,20 +1,22 @@
 body {
-    background-color: #CFD8DC;
+    background-color: rgb(253, 251, 251);
 }
 
-header {
-    width: 100%;
+#cabecalho {
+    top: 0%;
+    width: 30%;
     height: 80px;
     background-color: #37474F;
     display: flex;
     justify-content: center;
-    align-items: center;
+    position: fixed;
 }
 
-h1 {
-    color: aliceblue;
-}
-
-#h-titulo{
+#titulo {
     width: 80%;
+    align-items: left;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
 }
