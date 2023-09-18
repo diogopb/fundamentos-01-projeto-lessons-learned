@@ -19,6 +19,23 @@ body {
     text-align: center;
 }
 
+#minha-foto{
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
+}
+
+article {
+    font-family: monospace;
+    font-size: 14px;
+    position:absolute;
+    top: 15%;
+    left: 290px;
+    right: 20px;
+}
+
 .sobre-mim:hover, .github:hover, .linkedin:hover {
     text-decoration: dotted;
     font-size: 16px;
