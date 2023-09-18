@@ -4,45 +4,77 @@ body {
 
 #cabecalho {
     top: 0%;
-    width: 30%;
+    width: 100%;
     background-color: #37474f;
     display: flex;
     justify-content: center;
-    position: fixed;
 }
 
 #titulo {
-    width: 80%;
+    width: 100%;
     color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     text-align: center;
 }
 
-#minha-foto{
-    float: left;
-    border: transparent thin solid;
-    padding: 5px;
-    margin: 0px 10px 10px 0;
-    max-width: 186px;
+aside {
+    font-family: monospace;
+    font-size: 14px;
+    position:absolute;
+    top: 18%;
+    left: 330px;
+    right: 50px;
 }
 
 article {
     font-family: monospace;
     font-size: 14px;
     position:absolute;
-    top: 15%;
-    left: 290px;
-    right: 20px;
+    top: 40%;
+    left: 330px;
+    right: 50px;
 }
 
-.sobre-mim:hover, .github:hover, .linkedin:hover {
+#licoes_aprendidas {
+    font-family: monospace;
+    font-size: 14px;
+    position:absolute;
+    top: 71%;
+    left: 330px;
+    right: 50px;
+}
+
+#licoes_a_aprender {
+    font-family: monospace;
+    font-size: 14px;
+    position:absolute;
+    top: 71%;
+    left: 800px;
+    right: 50px;
+}
+
+.sobre-mim:hover, .github:hover, .linkedin:hover, .trybe:hover {
     text-decoration: dotted;
     font-size: 16px;
     font-weight: bold;
 }
 
-.sobre-mim, .github, .linkedin {
+.trybe {
     text-decoration: none;
     color: black;
+  }
+
+.sobre-mim, .github, .linkedin {
+    
+    text-decoration: none;
+    color: black;
+  }
+
+  footer {
+    font-family: monospace;
+    font-size: 14px;
+    position:absolute;
+    top: 115%;
+    left: 15px;
   }
